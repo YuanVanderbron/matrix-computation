@@ -1,0 +1,9 @@
+import numpy as np
+matrix = np.array([[1, 2], [3, 4]]) 
+# 计算矩阵的逆 
+inverse_matrix = np.linalg.inv(matrix) 
+print("原矩阵:") 
+print(matrix) 
+print("逆矩阵:") 
+print(inverse_matrix)
+
